@@ -1,1 +1,1 @@
-# proxyvix-LSTM-stock-price-prediction
+# Stock Price Prediction Using LSTM Model
