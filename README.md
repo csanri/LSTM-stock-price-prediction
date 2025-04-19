@@ -36,3 +36,10 @@ Train & Optimize (set train_and_optimize=True in main.py):
 ```bash
 python main.py
 ```
+## Final Toughts
+This model is only for demonstration porposes. As you can see on the graph the predicted price doesen't align well with the actual price.
+### Further improvements:
+  - Try out different model structures see how they perform
+  - Experiment with different indicators
+  - Add sentiment analysis
+  - Predict returns instead of price as it is more useful in real life
