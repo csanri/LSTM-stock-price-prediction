@@ -10,6 +10,7 @@ This repository contains an advanced deep learning model for stock price predict
 - **Robust Preprocessing**: Min-Max scaling with lookback windows for sequential data.
 - **Visualization**: Matplotlib plots for actual vs predicted prices and future projections.
 
+## Output Visualization
 ![Example Prediction for AAPL](AAPL_prediction_20241106_193555.png)
 
 ## Results
