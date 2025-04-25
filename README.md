@@ -10,11 +10,20 @@ This repository contains an advanced deep learning model for stock price predict
 - **Robust Preprocessing**: Min-Max scaling with lookback windows for sequential data.
 - **Visualization**: Matplotlib plots for actual vs predicted prices and future projections.
 
+![Example Prediction for AAPL](AAPL_prediction_20241106_193555.png)
+
+## Results
+This model is only for demonstration porposes. As one can see on the graph above the predicted price doesen't align well with the actual price.
+### Further improvements:
+  - Try out different model structures see how they perform
+  - Experiment with different indicators
+  - Add sentiment analysis
+  - Predict returns instead of price as it is more useful in real life
+
 ## Installation
 ```bash
 pip install requirements.txt
 ```
-
 ## Model Architecture
 **1. Conv1D Layer:** Extracts local temporal features with ReLU activation.
 ```python
@@ -36,10 +45,4 @@ Train & Optimize (set train_and_optimize=True in main.py):
 ```bash
 python main.py
 ```
-## Final Toughts
-This model is only for demonstration porposes. As you can see on the graph the predicted price doesen't align well with the actual price.
-### Further improvements:
-  - Try out different model structures see how they perform
-  - Experiment with different indicators
-  - Add sentiment analysis
-  - Predict returns instead of price as it is more useful in real life
+
